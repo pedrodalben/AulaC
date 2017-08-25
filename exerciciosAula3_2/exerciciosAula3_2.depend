@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1503627872 source:c:\users\pedro\documents\facul\aulac\aulac\exerciciosaula3_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
