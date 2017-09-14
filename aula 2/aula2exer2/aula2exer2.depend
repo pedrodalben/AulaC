@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1502717295 source:c:\users\pedro dalben\documents\linguagem c\aula2exer2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1502718726 source:c:\users\pedro dalben\documents\linguagemc\aulac\aula2exer2\main.c
+	<stdio.h>
+	<stdlib.h>
+
