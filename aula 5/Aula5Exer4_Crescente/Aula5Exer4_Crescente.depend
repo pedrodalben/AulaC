@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1505501507 source:c:\users\pedro\documents\facul\aulac\aula 5\aula5exer4_crescente\main.c
+	<stdio.h>
+	<stdlib.h>
+

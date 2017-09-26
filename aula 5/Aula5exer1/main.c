@@ -26,8 +26,6 @@ int main()
       }
       for (y=0;y<ALUNOS ;y++){
 
-
-
       printf("a media do aluno  do RA %d eh: %f\n",RA[y],notas[y]);
 
       }
