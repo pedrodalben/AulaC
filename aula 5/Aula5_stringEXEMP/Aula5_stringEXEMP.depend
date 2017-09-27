@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506471409 source:c:\users\pedro\documents\facul\aulac\aula 5\aula5_stringexemp\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506473700 source:c:\users\pedro\documents\facul\aulac\exercicios extras\monitoriaadriano_3\main.c
+	<stdio.h>
+	<stdlib.h>
+
