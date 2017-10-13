@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1507909550 source:c:\users\pedro\documents\facul\aulac\aula 5\maromo\maromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<conio.h>
+
+1507911285 source:c:\users\pedro\documents\facul\aulac\aula 5\maromo\maromo\function.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<conio.h>
+	<dos.h>
+
