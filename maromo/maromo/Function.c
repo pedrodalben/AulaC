@@ -48,34 +48,33 @@ void verificar(int jogo[],int palp[5][6], int tj, int tp){
         int i, j;
         int aux,help,k;
 
-        printf("Estamos Analizando os Resultados");
+        printf("Estamos Analizando os Resultados ");
 
-        for(i=0;i<30;i++){
+        for(i=0;i<40;i++){
         printf("> ");
-    int c = 1, d = 1;
+            int c = 1, d = 1;
 
-   for ( c = 1 ; c <= 11176 ; c++ )
-       for ( d = 1 ; d <= 11276 ; d++ )
-       {}
+                for ( c = 1 ; c <= 10176 ; c++ )
+                for ( d = 1 ; d <= 10276 ; d++ )
+                                            {}
         }
-        printf("\n");
+            printf("\n");
          for (j=0;j<5;j++){
                 aux=0;
         for(i=0; i<tp; i++){
                 help=palp[j][i];
                if(jogo[help]==1){
-                        printf("Acertou o palpite %d  \n", help);
+                        printf("Acertou o palpite : %d na cartela : %d   \n", help,j+1);
                         aux=aux +1;
                         k=k+1;
                 }
-                if (aux>1){
+        }
+            if (aux>1){
                     printf("voce ganhou seu puto acertando: %d vezes na cartela : %d\n",aux,j+1);
                 }
-
         }
-        }
-        if (k=0){
-            printf("Voce nao acertou nem um numero\n");
+            if (k=0){
+                    printf("Voce nao acertou nem um numero\n");
         }
 
 }
