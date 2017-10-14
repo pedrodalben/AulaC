@@ -36,8 +36,17 @@ void palpitar(int palp[5][6], int t){
     printf("|                 cartela %d               |\n",j+1);
     printf("|_________________________________________|\n");
     for(i=0; i<t; i++){
-        printf("Digite o palpite %d \n", i+1);
+        printf("\nDigite o palpite entre 1 e 60\n %d%c = ", i+1,167);
+
         scanf("%d", &palp[j][i]);
+        if (palp[j][i]>60 ){
+            i=i-1;
+            printf("O Numero digitado eh maior que 60 , digite um numero entre 1 e 60\n");
+        }
+         if (palp[j][i]<1 ){
+            i=i-1;
+            printf("O Numero digitado eh menor que 1 , digite um numero entre 1 e 60\n");
+        }
     }
 }
 system("cls");

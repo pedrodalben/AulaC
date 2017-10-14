@@ -6,13 +6,12 @@
 void palpitar(int palp[5][6], int t);
 void  sortear(int jogo[], int t);
 void verificar(int jogo[],int palp[5][6], int tj, int tp);
+
 int main()
 {
 
     int jogo[60];
     int palp[5][6];
-
-
 
     palpitar(palp, 6 );
     sortear(jogo, 6);
