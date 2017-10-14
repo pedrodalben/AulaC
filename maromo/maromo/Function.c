@@ -46,7 +46,7 @@ system("cls");
 
 void verificar(int jogo[],int palp[5][6], int tj, int tp){
         int i, j;
-        int aux,help,k;
+        int aux,help,k=0;
 
         printf("Estamos Analizando os Resultados ");
 
@@ -61,6 +61,7 @@ void verificar(int jogo[],int palp[5][6], int tj, int tp){
             printf("\n");
          for (j=0;j<5;j++){
                 aux=0;
+
         for(i=0; i<tp; i++){
                 help=palp[j][i];
                if(jogo[help]==1){
@@ -72,9 +73,11 @@ void verificar(int jogo[],int palp[5][6], int tj, int tp){
             if (aux>1){
                     printf("voce ganhou seu puto acertando: %d vezes na cartela : %d\n",aux,j+1);
                 }
+
         }
-            if (k=0){
-                    printf("Voce nao acertou nem um numero\n");
-        }
+         if (k==0){
+
+                    printf("\nVoce nao acertou nem um palpite\n");
+         }
 
 }
