@@ -7,7 +7,8 @@
 void  sortear(int jogo[], int t){
 
     int aux;
-    int i;
+    int sorte[6];
+    int i,k;
 
         printf("\t \t\t\t\t=============================\n");
         printf("\t \t\t\t\t|           LOTO C          |\n");
@@ -21,8 +22,19 @@ void  sortear(int jogo[], int t){
    for(i=0; i<t; i++){
 
    aux = (rand() % 60) + 1;
-   printf("%d, ",aux);
-   jogo[aux] = 1;
+   sorte[i]=aux;
+       /// Verificar se sorteou um numero repetido
+    for (k=0;k<i;k++){
+            if (sorte[i] == sorte[k]){
+                i=i-1;
+
+            }
+    }
+
+   jogo[sorte[i]] = 1;
+  }
+  for(i=0; i<6; i++){
+    printf("%d, ",sorte[i]);
   }
   printf("\n\n\n\n");
 }
