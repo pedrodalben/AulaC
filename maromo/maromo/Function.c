@@ -30,6 +30,7 @@ void  sortear(int jogo[], int t){
 void palpitar(int palp[5][6], int t){
     int i;
     int j;
+    int k;
     for (j=0;j<5;j++){
             system("cls");
             system("color 02");
@@ -53,6 +54,13 @@ void palpitar(int palp[5][6], int t){
          if (palp[j][i]<1 ){
             i=i-1;
             printf("O Numero digitado eh menor que 1 \n");
+
+        }
+        for (k=0;k<i;k++){
+            if (palp[j][i] == palp[j][k]){
+                printf("\nNumero ja digitado nessa cartela, tente outro\n");
+                i=i-1;
+            }
         }
     }
 }
