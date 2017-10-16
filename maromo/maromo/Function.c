@@ -96,7 +96,7 @@ void verificar(int jogo[],int palp[5][6], int tj, int tp){
                     printf("\n>>>Voce nao acertou nem um palpite\n\n\n\n\n");
          }
 
-         printf("Trabalho Realizado Por : Ademir Pereira, Alair Bellini, Hegon Roberto, Pedro Dalben.\n ");
+         printf("Trabalho Realizado Por : Ademir Pereira, Alair Bellini, Hegon Roberto e Pedro Dalben.\n ");
          system("pause");
 
 }
